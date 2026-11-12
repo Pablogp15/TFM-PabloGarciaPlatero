@@ -1,0 +1,83 @@
+# Entornos y dependencias
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+node_modules/
+dist/
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+
+# Datos locales
+uploads/
+media/
+storage/
+*.sqlite3
+
+# Herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage.xml
+htmlcov/
+
+rag_models/
+knowledge/*
+!knowledge/README.md
+
+# Manual propio: los demás documentos del corpus permanecen privados.
+!knowledge/manual_tecnicas_miniaturas.md
+!knowledge/manual_tecnicas_miniaturas.json
+
+# Entornos, modelos y archivos generados adicionales
+env/
+ENV/
+miniconda3/
+anaconda3/
+models/
+.cache/
+.pnpm-store/
+*.tsbuildinfo
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.gguf
+*.pem
+*.key
+*.sqlite
+*.db
+*.sql.gz
+*.dump
+backups/
+.coverage
+.coverage.*
+coverage/
+*.log
+
+# Instrucciones de agentes y evidencias internas de trabajo
+AGENTS.md
+agents.md
+AGENTS.override.md
+.agents/
+.codex/
+.claude/
+CLAUDE.md
+/IMPLEMENTATION_*.md
+/validation/
+
+# Editores y archivos temporales
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
